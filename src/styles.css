@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/*Applying suitable background gradient to page*/
+
+body{
+	background: linear-gradient(to bottom right,#408DBB,#A9DAF8);
+	height: 100%;
+	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/* Here we use angular validation CSS classes */
+
+/* Field borders turn red when touched and invalid */
+input.ng-touched.ng-invalid, select.ng-touched.ng-invalid {
+    border-color:red;
+    border-width: 2px;
+}
+
+/* Field borders turn green when touched and invalid */
+input.ng-touched.ng-valid, select.ng-touched.ng-valid {
+    border-color:green;
+    border-width: 2px;
+}
